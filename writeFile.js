@@ -42,3 +42,5 @@ const promises = [promise1, promise2];
 Promise.allSettled(promises).then((results) =>
   results.forEach((result) => console.log(result.status))
 );
+
+setTimeout((greeting) => console.log(greeting), 5000, "hi");
