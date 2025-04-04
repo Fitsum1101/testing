@@ -1,17 +1,42 @@
-function Pepole(firstName, lastName) {
+"use strict";
+
+function Person(firstName, lastName) {
   this.firstName = firstName;
   this.lastName = lastName;
-  this.fullname = () => {
-    return this.firstName + " " + this.lastName;
-  };
 }
 
-function Student(firstName, lastName, age) {
-  Pepole.apply(this, [firstName, lastName]);
-  this.age = age;
-}
+Person.prototype.say = function (message) {
+  return (
+    "[" +
+    this +
+    "]: " +
+    this.firstName +
+    " " +
+    this.lastName +
+    ' said: "' +
+    message +
+    '"'
+  );
+};
 
-const studet1 = new Student("fitsum", "kifle", 21);
+Person.prototype.toString = function () {
+  return "[Person]";
+};
 
-const FULLNAME = new Pepole("miki", "luelsegadi").fullname;
+const moe = new Person("Mo", "El");
 
+const func = moe.say.bind(moe);
+
+console.log(func("asdasda"));
+// console.log(person1("fitsum", "kifle"));
+// function Student(firstName, lastName, age) {
+//   Pepole.apply(this, [firstName, lastName]);
+//   this.age = age;
+// }
+
+// const studet1 = new Student("new", "kifle", 21);
+
+// const FULLNAME = new Pepole("miki", "luelsegadi").fullname;
+
+// const fullname = Pepole.apply({ age: 21 },[ "fitsum", "kifle"]);
+// console.log(fullname);
