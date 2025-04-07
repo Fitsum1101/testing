@@ -14,4 +14,6 @@ const anotherfunction = () => {
   return "amazing product";
 };
 
-const object = {};
+const object = {l};
+const kjhhh = 909;
+const uippi = 5678;
