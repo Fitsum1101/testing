@@ -13,3 +13,5 @@ const newFunction = () => {
 const anotherfunction = () => {
   return "amazing product";
 };
+
+const object = {};
