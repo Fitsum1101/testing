@@ -21,3 +21,4 @@ const uippi = 5678;
 
 
 const updatedSucc= 0;
+const newFuctionality = 0;
