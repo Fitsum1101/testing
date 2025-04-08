@@ -17,3 +17,7 @@ const anotherfunction = () => {
 const object = {l};
 const kjhhh = 909;
 const uippi = 5678;
+
+
+
+const updatedSucc= 0;
