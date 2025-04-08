@@ -22,3 +22,4 @@ it("should return invalid if the parameters are other than string and number", f
 });
 
 const testig = "testing is amazing";
+const waht = 48;
