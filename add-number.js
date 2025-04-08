@@ -14,4 +14,4 @@ export const sum = (a, b) => {
 
 const num = 3;
 
-console.log(sum(1, 2));
+
