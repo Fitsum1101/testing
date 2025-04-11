@@ -44,3 +44,6 @@ Promise.allSettled(promises).then((results) =>
 );
 
 setTimeout((greeting) => console.log(greeting), 5000, "hi");
+function heelo() {
+  console.log("hi");
+}
