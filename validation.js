@@ -12,4 +12,8 @@ function validateStringNotEmpty(value) {
   
   exports.validateNumber = validateNumber;
   exports.validateStringNotEmpty = validateStringNotEmpty;
+
+  function heelo() {
+    console.log("hi");
+  }
   
