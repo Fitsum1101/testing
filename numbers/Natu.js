@@ -14,9 +14,7 @@ const anotherfunction = () => {
   return "amazing product";
 };
 
-const object = {l};
-const kjhhh = 909;
-const uippi = 5678;
+
 
 function heelo() {
   console.log("hi");
