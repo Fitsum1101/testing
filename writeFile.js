@@ -20,18 +20,7 @@
 //   });
 // });
 
-// newPromise
-//   .then((result) => {
-//     return result();
-//   })
-//   .then((finalResult) => {
-//     console.log(finalResult);
-//   })
-//   .catch((err) => console.log(err));
 
-// Promise.all([1, 2, Promise.reject("rejected for some reason!!")])
-//   .then((result) => console.log(result))
-//   .catch((err) => console.log(err));
 
 const promise1 = Promise.resolve(3);
 const promise2 = new Promise((resolve, reject) =>
