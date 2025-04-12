@@ -15,6 +15,3 @@ export const sum = (a, b) => {
 const num = 3;
 
 
-function heelo() {
-  console.log("hi");
-}
