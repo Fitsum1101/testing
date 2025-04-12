@@ -20,6 +20,3 @@ it("should return invalid if the parameters are other than string and number", f
   const result = sum(a, b);
   expect(result).toBe(0);
 });
-
-const testig = "testing is amazing";
-const waht = 48;
