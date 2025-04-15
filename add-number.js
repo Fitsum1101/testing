@@ -12,6 +12,5 @@ export const sum = (a, b) => {
   return 0;
 };
 
-const num = 3;
 
 
