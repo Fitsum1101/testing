@@ -26,9 +26,13 @@ it('should throw an error if any other value than a string is provided', () => {
   const inputBool = true;
   const inputObj = {};
 
+
+
   const validationFnNum = () => validateStringNotEmpty(inputNum);
   const validationFnBool = () => validateStringNotEmpty(inputBool);
   const validationFnObj = () => validateStringNotEmpty(inputObj);
+
+
 
   expect(validationFnNum).toThrow();
   expect(validationFnBool).toThrow();
@@ -69,12 +73,9 @@ it("expect.soft test", () => {
   expect.soft(1 + 1).toBe(3); // mark the test as fail and continue
   expect.soft(1 + 2).toBe(4); // mark the test as fail and continue
 });
-it("expect.soft test", () => {
-  expect(1 + 1).toBe(3); // mark the test as fail and continue
-  expect(1 + 2).toBe(4); // mark the test as fail and continue
-});
 
-it.fails("decimals are not equal in javascript", () => {
-  // console.log(0.1 + 0.2 === 0.3);
-  expect(0.2 + 0.1).toBe(0.3); // 0.2 + 0.1 is 0.30000000000000004
-});
+
+
+
+
+
