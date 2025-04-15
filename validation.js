@@ -12,7 +12,4 @@ function validateStringNotEmpty(value) {
   
 
 
-  function heelo() {
-    console.log("hi");
-  }
   
