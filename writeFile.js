@@ -5,11 +5,7 @@
 //   reject("error");
 // });
 
-// myPromise
-//   .then((result) => console.log(result))
-//   .catch((err) => {
-//     console.log(err);
-//   });
+
 
 // const newPromise = new Promise((resolve, reject) => {
 //   reject("something is wrong");
