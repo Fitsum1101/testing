@@ -69,10 +69,6 @@ it('should not throw an error, if a number is provided', () => {
   expect(validationFn).not.toThrow();
 });
 
-it("expect.soft test", () => {
-  expect.soft(1 + 1).toBe(3); // mark the test as fail and continue
-  expect.soft(1 + 2).toBe(4); // mark the test as fail and continue
-});
 
 
 
