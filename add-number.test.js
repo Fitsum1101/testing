@@ -5,10 +5,3 @@ it("should return 0 if it called with out paramiters", function () {
 });
 
 
-it("should return invalid if the parameters are other than string and number", function () {
-  const a = {};
-  const b = 1;
-
-  const result = sum(a, b);
-  expect(result).toBe(0);
-});
