@@ -1,9 +1,10 @@
 import React from 'react'
 
-const test = () => {
-  return (
-    <div>async.test</div>
-  )
-}
-
-export default async.test
+const newPromise = new Promise((resolve, reject) => {
+  reject("something is wrong");
+  resolve(() => {
+    return new Promise((innerResolve) => {
+      innerResolve("inner resolve");
+    });
+  });
+});
