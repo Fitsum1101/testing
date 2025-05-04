@@ -1,6 +1,1 @@
-
-function num() {
-  return (
-    <div>function</div>
-  )
-}
+export default async.test
