@@ -5,3 +5,5 @@ it("should return 0 if it called with out paramiters", function () {
 });
 
 
+const sum = () => 3 + 3;
+
