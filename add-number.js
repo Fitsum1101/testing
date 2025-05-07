@@ -9,5 +9,3 @@ const number = () => {
 export default add-number
 
 
-const sum = () => 3 + 3;
-
