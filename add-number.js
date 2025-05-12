@@ -1,5 +1,5 @@
 
-const number = () => {
+const numbers = () => {
   return (
     <div>add-number</div>
   )
@@ -8,3 +8,4 @@ const number = () => {
 export default add-number
 
 
+const number = one => one;
