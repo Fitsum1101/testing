@@ -1,1 +1,2 @@
 
+const number = one => one;
