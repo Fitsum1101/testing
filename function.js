@@ -1,2 +1,0 @@
-
-const number = one => one;
