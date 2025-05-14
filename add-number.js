@@ -5,7 +5,6 @@ const numbers = () => {
   )
 }
 
-export default add-number
 
 
 const number = one => one;
