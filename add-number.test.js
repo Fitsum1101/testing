@@ -5,3 +5,4 @@ it("should return 0 if it called with out paramiters", function () {
 });
 
 const p = 4567;
+const num = "020203202";
