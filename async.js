@@ -1,1 +1,2 @@
-const number = () => "I am a number ";
+const num = "020203202";
+const name = "bructea"
